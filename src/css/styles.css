@@ -13,6 +13,8 @@ body {
 }
 h2 { 
   margin: 0;
+  text-align: center;
+  width: 100%;
 }
 ul { 
   list-style: none;
@@ -25,7 +27,7 @@ li {
     justify-content: space-around;
     align-items: center;
     gap: 15px;
-    width: 200px;
+    max-width: 320px;
     padding: 15px;
     background-color: rgb(236, 236, 236);
     border-radius: 20px;
