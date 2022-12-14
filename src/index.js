@@ -30,7 +30,7 @@ refs.searchField.addEventListener('input', debounce(onSearch, DEBOUNCE_DELAY));
 
 function onSearch(e) {
     const searchQuery = e.target.value.trim();
-    
+
     fetchCountries(searchQuery)
     .then(data => {
         if (data.length > 10) {
@@ -56,8 +56,8 @@ function onSearch(e) {
       })
       .catch(error => {
         Notify.failure('Oops, there is no country with that name');
-        cleanCountryList();
-        cleanCountryInfo();
+        refs.countryList.innerHTML = '';
+        refs.countryInfo.innerHTML = '';
       });
 } 
 

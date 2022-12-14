@@ -27,9 +27,8 @@ li {
     gap: 15px;
     width: 200px;
     padding: 15px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(236, 236, 236);
     border-radius: 20px;
-    border: 1px solid rgb(196, 196, 196);
 }
 #search-box {
   font: inherit;
@@ -52,9 +51,7 @@ li {
   margin-left: 20px;
   width: 320px;
   padding: 15px;
-  background-color: rgb(233, 233, 233);
-  border-radius: 20px;
-  border: 1px solid rgb(196, 196, 196);
+
 }
 .info-h {
   display: flex;
